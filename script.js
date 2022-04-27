@@ -38,9 +38,10 @@ click2();
 if (firstDice>secondDice){
 h1.innerText = "First Player WIN!";
 }
-else {
+else if (firstDice<secondDice){
     h1.innerText ="Second Player WIN!";
 }
+else {h1.innerText ="Draw!";}
 // return firstDice, secondDice;
 }
 
